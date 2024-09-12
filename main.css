@@ -1,0 +1,397 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: Lato; 
+    } 
+    li{ 
+        list-style: none; 
+    } 
+    a{ 
+        text-decoration: none; 
+    } 
+    .header{ 
+        padding: 17px 0; 
+        font-family: Lato;
+    } 
+    .container{ 
+    max-width: 1400px; 
+    margin: 0 auto; 
+    } 
+    .header__wrap{ 
+        display: flex; 
+        justify-content: space-between;
+        align-items: center; 
+    } 
+    .header__menu{ 
+        display: flex;  
+    } 
+    .header__link{ 
+        color: #292929; 
+        font-size: 20px; 
+        font-weight: 500; 
+        margin-right: 70px;
+    } 
+    .btn{ 
+        color: white; 
+        font-weight: 400; 
+        font-size: 20px; 
+        background-color: #01996D; 
+        padding: 20px 50px; 
+        border-radius: 4px; 
+        border: none;
+        width: 240px;
+    } 
+    .btn_white{ 
+        color: black; 
+        background-color: white; 
+    } 
+    .main{ 
+        background: url('./img/1.png') no-repeat center center / cover; 
+        height: 90vh; 
+        padding-top: 170px; 
+    } 
+    .main__info{ 
+        max-width: 400px; 
+        display: flex; 
+        flex-direction: column; 
+    } 
+    .main__title{ 
+        color: #01996D; 
+        font-size: 65px; 
+        font-weight: 900; 
+        margin-bottom: 30px; 
+    } 
+    .main__text{ 
+        color: #484848; 
+        font-weight: 500; 
+        font-size: 20px; 
+        margin-bottom: 55px; 
+        padding-right: 20px;  
+    } 
+    .steps{ 
+        padding: 169px 0px 255px 0px;
+    }
+    .steps__otitle{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .steps__subtitle{
+        font-size: 20px;
+        text-decoration: solid;
+    }
+    .steps__title{
+        font-size: 40px;
+       font-weight: 700; 
+        color: #01996D;
+        line-height: 65px;
+    } 
+    .steps__text{
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: 500;
+        position: absolute;
+        width: 671px;
+        height: 120px;
+        top: 1000px;
+        left: 895px;
+        padding-right: 200px;
+    }
+    .steps__card-title1{
+    font-size: 30px;
+    font-weight:  700;
+    font-style: Bold;
+    position: absolute;
+    width: 181px;
+    height: 45px;
+    top: 1430px;
+    left: 193px;
+    }
+    .class__pic1{
+    position: absolute;
+    width: 390px;
+    height: 492px;
+    top: 1743px;
+    left: 105px;
+    border-radius: 4px ;
+    }
+    .class__text1{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        
+        position: absolute;
+        width: 382px;
+    height: 150px;
+    top: 1500px;
+    left: 105px;
+    }
+    .class__pic2{
+        position: absolute;
+        width: 390px;
+    height: 548px;
+    top: 1683px;
+    left: 580px;
+    border-radius: 12px;
+    }
+    .class__pic3{
+        position: absolute;
+        width: 551px;
+        height: 773px;
+        top: 1683px;
+        left: 1044px;
+        border-radius: 12px;
+    }
+    .steps__card-title2{
+        font-size: 30px;
+    font-weight:  700;
+    font-style: Bold;
+        position: absolute;
+    width: 313px;
+    height: 50px;
+    top: 1425px;
+    left: 640px;
+    }
+    .steps__card-tleti3{
+        font-size: 30px;
+    font-weight:  700;
+    font-style: Bold;
+        position: absolute;
+    width: 102px;
+    height: 50.06px;
+    top: 1420px;
+    left: 1188px;
+    }
+    .class__text2{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        position: absolute;
+        width: 392px;
+        height: 100px;
+        top: 1500px;
+        left: 580px;
+    }
+    .class__text3{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        position: absolute;
+        width: 441px;
+        height: 100px;
+        top: 1495px;
+        left: 1047px;
+    }
+    .steps2{ 
+        margin: 1150px 0px 255px 0px;
+        background-color: #245852;
+        height: 100vh;
+    }
+    .video{ position: absolute;
+        width: 700px;
+        height: 400px;
+        top: 2725px;
+        left: 600px;
+        border-radius: 16px;
+    }
+    .pause{
+        position: absolute;
+        width: 700px;
+height: 400px;
+top: 2970px;
+left: 1040px;
+    }   
+    .krug{
+        position: absolute;
+        width: 700px;
+height: 400px;
+top: 2948px;
+left: 1009px;
+    }
+    .titlee{
+    color: white;   
+font-size: 50px;
+font-weight: 700;
+line-height: 78.5px;
+text-align: left;
+position: absolute;
+    width: 580px;
+height: 158px;
+top: 2800px;
+left: 100px;
+    }
+    .texttt{
+        font-family: Lato;
+        color: #fff;
+font-size: 20px;
+font-weight: 600;
+line-height: 39.25px;
+text-align: left;
+position: absolute;
+width: 550px;
+height: 39px;
+top: 3000px;
+left: 100px;
+    }
+    .steps2__cont{
+        color: white; 
+        font-weight: 400; 
+        font-size: 20px; 
+        background-color: #01996D; 
+        padding: 20px 50px; 
+        border-radius: 4px; 
+        border: none;
+        width: 245px;
+        font-family: Lato;
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+
+        position: absolute;
+        top: 3100px;
+        left: 100px;
+    }
+    .zhenshina{
+        background-color: #01996D33;
+        padding: 20px 115px; 
+        position: absolute;
+        width: 700px;
+    height: 593.05px;
+top: 3500.3px;
+left: 150px;
+border-radius: 18.11px;
+    }
+    .minititle{
+        font-family: Lato;
+        font-size: 14.49px;
+        font-weight: 600;
+        line-height: 22.75px;
+        padding: 0 0 0 50px;
+     }
+    .profile{
+        display: block;
+        color: #000; 
+        font-weight: 400; 
+        font-size: 20px; 
+        background-color: whitesmoke;
+        
+        font-family: Lato;
+    position: absolute;
+    padding: 50px 50px; 
+    width: 296.14px;
+    height: 293.9px;
+    top: 350px;
+    left: -50px;
+    border-radius: 3.73px;
+     }
+     hr{
+        margin-top: 15px;
+        width: 100px;
+     }
+    .imh_crig{
+    padding-top: 15px; 
+    padding-left: 70px;
+    }
+    .textik{
+    font-family: Lato;
+    font-size: 11.94px;
+    font-weight: 400;
+    line-height: 18.74px;
+    text-align: center;
+    }
+    .supaminimacrominixptitle{
+        font-family: Georgia;
+    font-size: 15.93px;
+    font-weight: 700;
+    line-height: 25.01px;
+    text-align: center;
+    }
+    .punkt{
+        padding: 15px;
+        padding-left: 5px;
+        font-family: Lato;
+    font-size: 10.62px;
+    font-weight: 400;
+    line-height: 16.67px;
+    text-align: left;
+    }
+    .anothertitle{
+        font-family: Lato;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 39.25px;
+    text-align: left;
+        position: absolute;
+        width: 150px;
+    height: 39px;
+    top: 3490px;
+    left: 930px;
+    }
+    .jigoej{
+        color:  #01996D;
+    font-family: Georgia;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 65.5px;
+    text-align: left;
+    position: absolute;
+    width: 584px;
+    height: 158px;
+    top: 3550px;
+    left: 930px;  
+    }
+    .fdstext{
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31.4px;
+    text-align: left;
+    position: absolute;
+    width: 530px;
+    height: 81px;
+    top: 3700px;
+    left: 930px;
+    }
+    .last__btn{
+    color: white; 
+    font-weight: 400; 
+    font-size: 20px; 
+    background-color: #01996D; 
+    padding: 20px 50px; 
+    border-radius: 4px; 
+    border: none;
+    width: 240px;   
+    position: absolute;
+    top: 3850px;
+    left: 930px;
+    }
+    .back{
+        margin-top: 1000px;
+        margin-left: -100px;
+        background-color: #245852;
+        width: 1560px;
+    height: 60vh;
+    }
+    .afufas{
+        padding-top: 100px;
+    }
+    .footerrow{
+        padding-left: 250px;
+    }
+    .footer__menu{
+    display: block;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 35px;
+    }
+    .footer__link{
+    color: white;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    
+
+    }
